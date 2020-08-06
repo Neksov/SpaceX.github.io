@@ -3,7 +3,5 @@ var instance = new vidbg('.videoFon', {
   webm: 'video/world.webm', // URL or relative path to webm video
   poster: 'img/poster.jpg', // URL or relative path to fallback image
   overlay: false, // Boolean to display the overlay or not
-
-}, {
-  // Attributes
-})
+});
+var rellax = new Rellax('.rocket');

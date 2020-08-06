@@ -462,4 +462,50 @@ body {
       margin-top: 22px; }
 
 .videoFon {
-  height: 750px; }
+  height: 900px; }
+
+.features {
+  margin-left: 80px;
+  position: relative; }
+
+.overview__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: uppercase;
+  width: 177px;
+  padding-bottom: 16px;
+  padding-top: 528px; }
+
+.table {
+  margin-bottom: 208px; }
+  .table__column {
+    width: 283px;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 179.69%; }
+
+.performance__title {
+  width: 173px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  padding-bottom: 31px; }
+
+.performance__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+  width: 490px; }
+
+.rocket {
+  position: absolute;
+  top: 300px;
+  right: 0;
+  z-index: 100; }
