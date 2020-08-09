@@ -5,3 +5,5 @@ var instance = new vidbg('.videoFon', {
   overlay: false, // Boolean to display the overlay or not
 });
 var rellax = new Rellax('.rocket');
+
+new WOW().init();

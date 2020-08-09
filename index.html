@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
-  <link rel="stylesheet" href="css/swiper.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/animate.min.css" media="all" />
+
   <link rel="stylesheet" href="css/vidbg.css" media="all" />
   <title>SpaceX</title>
 </head>
@@ -57,7 +57,7 @@
   <main>
     <section class="main">
       <div class="container">
-        <div class="main__title">Falcon Heavy</div>
+        <div class="main__title wow heartBeat" data-wow-delay="0.4s">Falcon Heavy</div>
         <div class="main__text">The most powerful operational rocket in the world by a factor of two</div>
       </div>
     </section>
@@ -146,6 +146,11 @@
       </button>
     </div>
   </footer>
+  <div class="buttonUp">
+    <span id="button-up">
+      <img src="img/angle-up-solid.svg" alt="Наверх" />
+    </span>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/vidbg.js"></script>
@@ -155,6 +160,7 @@
   <script src="https://5e7c8b12452c471f8d34e456--reverent-yonath-cad9c2.netlify.com/js/jquery.validate.min.js"></script>
   <script src="https://5e7c8b12452c471f8d34e456--reverent-yonath-cad9c2.netlify.com/js/jquery.mask.min.js"></script>
   <script src="https://5e7c8b12452c471f8d34e456--reverent-yonath-cad9c2.netlify.com/js/wow.min.js"></script>
+  <script src="js/buttonUp.min.js"></script>
 </body>
 
 </html>
