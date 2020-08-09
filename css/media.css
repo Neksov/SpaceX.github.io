@@ -43,7 +43,7 @@
   .features {
     margin-left: 0; }
   .performance__text {
-    width: 420px; }
+    width: 380px; }
   .footer {
     padding-top: 200px; } }
 
@@ -71,7 +71,7 @@
   .table__column {
     padding-top: 0px;
     padding-bottom: 0px;
-    font-size: 11px; }
+    font-size: 12px; }
   .performance__title {
     font-size: 20px; }
   .performance__text {
@@ -82,7 +82,14 @@
     right: -170px; }
   .features {
     margin-left: 0; }
-  .performance__text {
-    width: 420px; }
   .footer {
-    padding-top: 200px; } }
+    padding-top: 200px; }
+  .nav__footer .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
